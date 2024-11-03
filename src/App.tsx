@@ -24,6 +24,9 @@ function App() {
   return (
     <>
       <EmployeeCard employee={employee} />
+      <button type="button" onClick={getEmployee}>
+        Get employee
+      </button>
     </>
   );
 }
